@@ -55,15 +55,15 @@ const News = (props) => {
                 <h1 className="text-center" style={{marginTop:'84px' ,color:'black'}}>DG News - Top headlines on {capitalizeFirstLetter(props.category)}</h1>
                 {loading && <Spinner/>}
                 <InfiniteScroll
-                    dataLength={articles.length}
+                    dataLength={articles?.length}
                     next={fetchMoreData}
-                    hasMore={articles.length !== totalResults}
+                    hasMore={articles?.length !== totalResults}
                     loader={<Spinner/>}
                 >
                     <div className="container">
 
                 <div className="row">
-                    {articles.map((element, idx) => {
+                    {articles?.map((element, idx) => {
                         return <div className="col-md-4" key={idx}>
                             <NewsItem title={element.title} description={element.description} imageUrl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
                         </div>
