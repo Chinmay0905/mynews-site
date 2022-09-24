@@ -73,6 +73,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ![Screenshot 2](https://user-images.githubusercontent.com/77892324/192095671-112a9aa7-130f-4ef9-bd62-2a75b20c5c6f.png)
 
+You can get the latest news on different topics.
+
 ![Screenshot 3](https://user-images.githubusercontent.com/77892324/192095773-0b1e896a-37fa-4552-9341-75ecfb1dba13.png)
 
 
